@@ -1,0 +1,19 @@
+Design and Source Tree
+======================
+
+data/
+    Data files (possible mod easier) or file-based DB.
+
+engine/
+    Main game engine. Independent from view(visual representation).
+
+scripts/
+    AI, behavior model, physical model, and combat behavior should 
+    be scripts so that developers can modify these in real-time and 
+    experiment more.
+
+view/
+    interface such as CLI or GUI to represent the status of engine to 
+    players
+
+
